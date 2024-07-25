@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.auth-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    margin: 20vh 25vw;
+    gap: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+
+    input{
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+    }
+
+    button{
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        padding-left: 10px;
+    }
+}
+
+.otp-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    margin: 20vh 25vw;
+    gap: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color:cadetblue;
+    font-size: 20px;
+
+.otp-input-container {
+        position: relative;
+        margin-left: 70px;
+
+        input {
+            padding: 8px;
+            font-size: 24px;
+            letter-spacing: 48px;
+            width: 280px !important;
+            border: none;
+            outline: none;
+        }
+
+        .otp-column {
+            position: absolute;
+            top: 0;
+
+            height: 46px;
+            width: 24px;
+            background-color: cadetblue;
+        }
+
+        .c1 {
+            left: 34px;
+        }
+
+        .c2 {
+            left: 94px;
+        }
+
+        .c3 {
+            left: 156px;
+        }
+
+        .c4 {
+            left: 216px;
+            width: 70px;
+        }
+    }
+        
+    button{
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        padding-left: 10px;
+    }
+}
+/* HomePage.css */
+
+.homepage-main-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  
+    .buttons {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+  
+      .file-create {
+        padding: 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  
+    .folder-list {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      gap: 5px;
+      margin-bottom: 20px;
+  
+      li {
+        cursor: pointer;
+        padding: 5px 10px;
+        background-color: #f0f0f0;
+        border-radius: 3px;
+  
+        &:hover {
+          background-color: #e0e0e0;
+        }
+      }
+    }
+  
+    .create-folder-container {
+      margin-bottom: 20px;
+  
+      .create-folder {
+        display: flex;
+        gap: 10px;
+  
+        .yes-no {
+          padding: 5px 10px;
+          border: none;
+          cursor: pointer;
+          border-radius: 3px;
+  
+          &:hover {
+            background-color: #e0e0e0;
+          }
+        }
+      }
+    }
+  
+    .get-file-folders {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  
+      .file-folder {
+        padding: 10px;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+  
+        &.expanded {
+          background-color: #e8e8e8;
+        }
+  
+        .file-folder-content {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          width: 100%;
+          justify-content: space-between;
+  
+          p {
+            margin: 0;
+          }
+  
+          .options-icon {
+            cursor: pointer;
+          }
+        }
+  
+        .options-menu {
+          position: absolute;
+          top: 40px;
+          right: 10px;
+          background-color: white;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: flex;
+          flex-direction: column;
+  
+          button {
+            padding: 10px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+  
+            &:hover {
+              background-color: #f0f0f0;
+            }
+          }
+        }
+  
+        .rename-input {
+          display: flex;
+          gap: 5px;
+  
+          &.visible {
+            display: flex;
+          }
+  
+          input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+          }
+  
+          button {
+            padding: 5px 10px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+  
+            &:hover {
+              background-color: #0056b3;
+            }
+          }
+        }
+      }
+    }
+  }
+  
