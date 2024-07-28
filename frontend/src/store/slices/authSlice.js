@@ -21,7 +21,7 @@ const authSlice = createSlice({
             state.name = user.name; //action.payload.data.user.name
             state.token = token; //action.payload.data.token
             state.isEmailVerified = user.isEmailVerified;
-            state.userId = user._id //action.payload.data.user.isEmailVerified
+            
             localStorage.setItem("userInfo", JSON.stringify(data));
         },
         appLogout: (state) => {
