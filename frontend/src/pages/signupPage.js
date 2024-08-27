@@ -23,7 +23,6 @@ const SignupPage = () => {
       alert("Validation failed");
     }
   };
-
   return (
     <div className="auth-page-container">
       <div className="logo">

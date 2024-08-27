@@ -32,6 +32,7 @@ const LoginPage = () => {
         
         <div className="logo">
             <img src="https://res.cloudinary.com/dyujlrlfp/image/upload/v1724776984/logo_aai3j2.png" alt="logo"/>
+            
         </div>
         
         <div className="auth-page">
