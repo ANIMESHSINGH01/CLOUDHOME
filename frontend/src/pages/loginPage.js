@@ -29,6 +29,11 @@ const LoginPage = () => {
 
     return (
         <div className="auth-page-container">
+        
+        <div className="logo">
+            <img src="https://res.cloudinary.com/dyujlrlfp/image/upload/v1724776984/logo_aai3j2.png" alt="logo"/>
+        </div>
+        
         <div className="auth-page">
         <label htmlFor="email">Email:</label>
         <input type="email" placeholder="Enter your email" value={email} onChange={(e) => setEmail(e.target.value)} />
